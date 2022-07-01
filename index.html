@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>201 Final Project Start Page</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div class="buttonbox">
+        <h1>Do you have what it takes?</h1>
+        <a href="https://ijkeller.github.io/Gave-Dev/"><button id="startbutton">Begin Quest</button></a>
+    </div>
+    <video autoplay muted loop id="flameVideo">
+        <source src="https://assets.mixkit.co/videos/preview/mixkit-burning-flames-on-a-black-background-3759-large.mp4" type="video/mp4">
+    </video>
+    <audio autoplay loop id="sheamusAudio">
+        <source src="Sheamus-Hellfire.mp3" type="audio/ogg">
+    </audio>
+    <div class="footerbox">
+        <h1>ZOMBIE SURVIVOR I</h1>
+        <button id="footerbutton" onclick="flamesFunction()">Pause Flames</button>
+        <button id="footerbutton" onclick="audioFunction()">Pause Audio</button>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
